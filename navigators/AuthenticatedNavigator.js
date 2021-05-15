@@ -11,6 +11,8 @@ const {Navigator, Screen}=createBottomTabNavigator()
 
 const AuthenticatedNavigator = () => {
     return (
+
+        
         <NavigationContainer>
             <Navigator
                 initialRouteName="Home"
